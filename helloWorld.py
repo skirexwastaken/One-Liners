@@ -1,0 +1,1 @@
+hello_world = (lambda arg: print(f"{" ".join([word.capitalize() for word in __import__("inspect").stack()[0][4][0].split(" ")[0].split("_")])}!" if arg == "print" else "Invalid function."))("print")

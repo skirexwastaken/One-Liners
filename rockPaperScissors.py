@@ -1,0 +1,1 @@
+print(f"Game Result: {"You won" if (gameLogic := {"R":"S","S":"P","P":"R"})[(userChoice := input("[R]ock / [P]aper / [S]cissors "))] == (enemyChoice := __import__("random").choice(["R","P","S"])) else "You lost" if gameLogic[enemyChoice] == userChoice else "It was a draw"}\nYour choice: {userChoice}\nEnemy choice: {enemyChoice}")
