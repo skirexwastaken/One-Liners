@@ -1,5 +1,5 @@
 # One-Liners
-Random scripts written on one single line ...
+Random programs written on one single line ...
 
 | Script Name | Description |
 | - | - |
