@@ -1,0 +1,1 @@
+guessTheNumber = [print("Guess the number between 1 - 100"),(loop := lambda numberToGuess:((print("Higher"),loop(numberToGuess)) if (userGuess := int(input("Enter your guess: "))) < numberToGuess else(print("Lower"), loop(numberToGuess)) if userGuess > numberToGuess else print("You won")))((__import__("random").randint(1,100)))]
